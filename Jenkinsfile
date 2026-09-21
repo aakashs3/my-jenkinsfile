@@ -21,5 +21,10 @@ pipeline {
                 echo "code deploy successfull"
             }
         }
+        stage("all successfull"){
+            steps{
+                echo "thankyou jenkins 😊"
+            }
+        }
     }
 }
